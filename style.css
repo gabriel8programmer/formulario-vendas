@@ -88,8 +88,8 @@ input#desconto-adquirido {
     margin-top:20px;
     border-radius:35px;
     border: none;
-    width: calc(100% - 40px);
-    padding: 10px 15px;
+    width: calc(100% - 20px);
+    padding: 5px;
     color: #ddd;
     background-color: rgb(206, 56, 106);
     font-size: 11pt;
