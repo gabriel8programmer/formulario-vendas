@@ -2,19 +2,20 @@ body {
     margin:0px;
     padding:0px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(0,0,0,.9);
+    background-color: black;
 }
 
 main {
     width: calc(100% - 30%);
     margin:auto;
-    background-color: #000323;
+    background-color: rgba(0,0,255,.15);
 }
 
 /*formatação para o cabecalho*/
 header {
     display: flex;
     justify-content: center;
+    margin-bottom: 20px;
 }
 
 header h1{
@@ -28,3 +29,77 @@ header h1{
     font-weight: normal;
 }
 
+/*formatação para o corpo da pagina*/
+section#corpo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: calc(100% - 20%);
+    margin:0 auto;
+    align-items: center;
+}
+
+/*formatação do conteudo*/
+aside#conteudo {
+    padding:5px;
+}
+
+aside#conteudo h1 {
+    color: #ddd;
+    font-size: 18pt;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+aside#conteudo h2 {
+    color: rgb(196, 7, 117);
+    font-size: 14pt;
+}
+
+aside#conteudo p {
+    color: #ddd;
+    font-size: 8pt;
+}
+
+/*formatação do formulário*/
+form#formulario {
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    width: 50%;
+}
+
+form#formulario h1{
+    color: #ddd;
+    font-size: 16pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form#formulario label {
+    color:#ddd;
+    padding:5px 0;
+    font-size: 9pt;
+    margin-top:5px;
+}
+
+input#desconto-adquirido {
+    margin-top:20px;
+    border-radius:35px;
+    border: none;
+    width: calc(100% - 40px);
+    padding: 10px 15px;
+    color: #ddd;
+    background-color: rgb(206, 56, 106);
+    font-size: 11pt;
+    text-transform: uppercase;
+    margin: 20px auto 0px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+input#desconto-adquirido:hover {
+    background-color: rgba(206, 56, 106, 0.9);
+    transform: scale(1.05);
+}
