@@ -1,0 +1,12 @@
+.btn {
+  padding: 30px 10px;
+  border-radius: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+
+  &.btn-color {
+    background: $color-terciary;
+    color: $color-text;
+  }
+}

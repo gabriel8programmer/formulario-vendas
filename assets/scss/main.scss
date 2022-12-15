@@ -1,0 +1,93 @@
+//header
+main {
+
+  //content
+  section.row {
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+
+    //article and aside
+    article,
+    aside {
+      flex: 1;
+    }
+
+    //End article and aside
+
+
+    //article
+    article {
+
+      //hgroup
+      hgroup {
+
+        h1,
+        h2,
+        p {
+          font-weight: bold;
+        }
+
+        h1,
+        h2 {
+          font-size: 30px;
+          margin-bottom: 15px;
+        }
+
+        h2 {
+          color: $color-primary;
+        }
+
+        p {
+          color: $color-secundary;
+        }
+      }
+
+      //End hgroup
+
+    }
+
+    //End article
+
+    //aside
+    aside {
+
+      //form 
+      form {
+
+        width: 400px;
+
+        h1 {
+          font-size: 30px;
+          text-align: center;
+        }
+
+        //fieldset
+        fieldset {
+          display: flex;
+          flex-direction: column;
+
+          input {
+            margin: 5px 0;
+            padding: 5px 0;
+          }
+        }
+
+        //End fieldset
+
+      }
+
+      //End form 
+
+    }
+
+    //End aside
+
+  }
+
+  //End content
+
+}
+
+//End header

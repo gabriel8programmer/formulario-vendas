@@ -1,0 +1,31 @@
+//reset
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  font-weight: 300;
+}
+
+//End reset
+
+body {
+  background: $color-background;
+  color: $color-text;
+}
+
+//classes
+.container {
+  width: 1024px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+// End classes
