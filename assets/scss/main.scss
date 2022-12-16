@@ -4,28 +4,21 @@ main {
   //content
   section.row {
 
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     display: flex;
 
-    //article and aside
-    article,
-    aside {
-      flex: 1;
-    }
-
-    //End article and aside
-
-
     //article
     article {
+
+      width: 500px;
 
       //hgroup
       hgroup {
 
         h1,
         h2,
-        p {
+        h3 {
           font-weight: bold;
           letter-spacing: 1px;
         }
@@ -40,8 +33,9 @@ main {
           color: $color-primary;
         }
 
-        p {
-          color: $color-secundary;
+        h3 {
+          color: $color-secondary;
+          font-size: 14px;
         }
       }
 
@@ -54,15 +48,19 @@ main {
     //aside
     aside {
 
+      padding: 20px;
+
+      h1 {
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+      }
+
       //form 
+
       form {
-
         width: 400px;
-
-        h1 {
-          font-size: 30px;
-          text-align: center;
-        }
 
         //fieldset
         fieldset {
@@ -82,6 +80,8 @@ main {
 
           input.btn {
             margin: 15px 0 0;
+            font-size: 80%;
+            font-weight: bold;
           }
         }
 
